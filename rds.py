@@ -12,7 +12,7 @@ os.makedirs(to_dir, exist_ok=True)
 size = 100
 
 # Input the disparity at pixel units
-disparity = 6
+disparity = 18
 
 # Input target size, which is half of RDS’s　size in default 
 inner = int(size/ 2)
@@ -21,7 +21,7 @@ inner = int(size/ 2)
 q = 5
 
 # Input a number you like to initiate
-s = 0
+s = 11
 
 # Generate RDSs
 for k in range(s, s + q):
